@@ -1,14 +1,5 @@
 # TMS (tiled Map service) Downloader
 
-## Step 1: Create AOI
-![AOI Creation](md_assets/aoi.JPG)
-
-## Step 2: Create Grid (50/50km) and Clip by AOI
-![Grid Clipping](md_assets/grid.JPG)
-
-
-## Dependencies Overview
-
 | Package    | Version   | Default in Python? | Installation Required? | Description                                                                 |
 |------------|-----------|---------------------|------------------------|-----------------------------------------------------------------------------|
 | `rasterio` | 1.3.8     | ❌                 | ✅                     | A library for reading and writing geospatial raster data                    |
@@ -18,7 +9,6 @@
 | `tqdm`     | 4.64.1    | ❌                 | ✅                     | A library for creating progress bars for loops                              |
 | `asyncio`  | Built-in  | ✅ (Python ≥ 3.4)  | ❌                     | A standard library for writing asynchronous, non-blocking code              |
 | `math`     | Built-in  | ✅                 | ❌                     | A standard library for mathematical functions (e.g., `sqrt`, `sin`, `log`)  |
-
 
 You can install them using:
 ```bash
